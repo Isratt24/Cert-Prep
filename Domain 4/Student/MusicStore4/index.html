@@ -5,20 +5,65 @@
     <title>THE Music Store</title>
     <body>
     <body style="background-color:white;">
+ <style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+    Welcome to <body style="background-color:white;">
 
 <h2>Hoverable Dropdown</h2>
 <p>Move the mouse over the button to open the dropdown menu.</p>
 
 <div class="dropdown">
-  <button class="dropbtn"> Intruments </button>
+  <button class="dropbtn"> Media </button>
+  <div class="dropdown-content">
+    <a href="43a-media.html">Link 1</a>
+    <a href="43b-media.html">Link 2</a>
+  </div>
+
+  <div class="dropdown">
+  <button class="dropbtn"> instrument </button>
   <div class="dropdown-content">
     <a href="41a-instruments2.html">Link 1</a>
     <a href="41a-instruments.html">Link 2</a>
   </div>
 </div>
-</head>
-<body>
-    Welcome to &lt;&lt;THE Music Store&gt;&gt;
+ &lt;&lt;THE Music Store&gt;&gt;
 
     <!-- Main text goes here -->
     <p>
