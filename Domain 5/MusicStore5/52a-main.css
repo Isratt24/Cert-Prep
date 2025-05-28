@@ -17,10 +17,21 @@ figcaption {
 .sale {
     font-weight: bold;
     background-color: #AAEEFF;
+    font-style:italic;
+}
+.leftindent {
+ /*text-indent: sem;*/
+padding-left: sem;
+
 }
 #sidenote {
     background-color: #DDDDDD;
     display:inline;
+    font-weight:bold;
+    float: right;
+    width: 200px;
+    height: 200px;  
+
 }
 a {
     text-decoration: none;
