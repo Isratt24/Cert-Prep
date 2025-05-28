@@ -5,20 +5,43 @@
 p {
     color: navy;
 }
-
+h1 {
+    font-size: 18pt;
+}
 /* The background color is extending across the page,
     so I have commented it out for now. */
 figcaption {
     color: navy;
     font-weight: bold;
-    /*background-color: #AAEEFF;*/
+    background-color: #AAEEFF;
+    display:inline;
 }
 .sale {
     font-weight: bold;
     background-color: #AAEEFF;
+    font-style:italic;
+}
+.leftindent {
+ /*text-indent: sem;*/
+padding-left: 5em;
+
 }
 #sidenote {
     background-color: #DDDDDD;
+    display:inline;
+    font-weight:bold;
+    float: right;
+    width: 200px;
+    height: 200px;  
+    border-color: navy;
+    border-style: dashed;
+    border-width:0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border: 2px solid navy;
+}
+#pagewidth {
+    width:500px;
 }
 a {
     text-decoration: none;
@@ -28,3 +51,15 @@ a:hover {
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
 }
+ td.vbot {
+    vertical-align: bottom;
+    height: 30px;
+    background-color: aquamarine;
+    color: cadetblue;
+ }
+
+ @media only screen and (max-width:500px) {
+    body {
+        background-color:white;
+    }
+ }
