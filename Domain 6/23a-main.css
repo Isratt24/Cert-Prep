@@ -3,15 +3,25 @@
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
 }
-p {
+
+P {
     color: navy;
 }
+/*The background color extends across the page, so, we have commented it out for now. 
+*/
+figcaption {
+    color: navy;
+    font-weight:bold;
+    /*background-color:aqua;*/
+}
+
 a {
     text-decoration:none;
 }
 a:hover {
     text-decoration:underline;
     font-weight:bold;
+    font-family: 'palatino Linotype', 'Times New Roman', serif;
 }
 .sale {
     font-weight:bold;
